@@ -1,0 +1,1939 @@
+Unity Editor version:    2021.3.10f1 (1c7d0df0160b)
+Branch:                  2021.3/staging
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 12.6.1 (Build 21G217)
+Darwin version:          21.6.0
+Architecture:            x86_64
+Running under Rosetta:   NO
+Available memory:        16384 MB
+Using pre-set license
+Pro License: YES
+
+COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/2021.3.10f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+/Users/tan.hoang/Desktop/Midnigt Cravings
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+62106
+Successfully changed project path to: /Users/tan.hoang/Desktop/Midnigt Cravings
+/Users/tan.hoang/Desktop/Midnigt Cravings
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 577.39 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.10f1 (1c7d0df0160b)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2021.3.10f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/tan.hoang/Desktop/Midnigt Cravings/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Color LCD preferred device: Intel(R) Iris(TM) Graphics 550 (low power)
+Metal devices available: 1
+0: Intel(R) Iris(TM) Graphics 550 (low power)
+Using device Intel(R) Iris(TM) Graphics 550 (low power)
+Initializing Metal device caps: Intel(R) Iris(TM) Graphics 550
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/2021.3.10f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2021.3.10f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
+Mono config path = '/Applications/Unity/Hub/Editor/2021.3.10f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56649
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2021.3.10f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2021.3.10f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.008268 seconds.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 351.85 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.180 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2181ms)
+		BeginReloadAssembly (236ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (1ms)
+			CreateAndSetChildDomain (2ms)
+		EndReloadAssembly (1663ms)
+			LoadAssemblies (238ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (372ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (83ms)
+			SetupLoadedEditorAssemblies (1053ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (35ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (352ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (508ms)
+				ProcessInitializeOnLoadMethodAttributes (155ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.026318 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/tan.hoang/Desktop/Midnigt Cravings/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image /Users/tan.hoang/Desktop/Midnigt Cravings/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 196.72 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Can't find custom attr constructor image: /Users/tan.hoang/Desktop/Midnigt Cravings/Library/PackageCache/com.unity.ads@3.4.5/Editor/UnityEditor.Advertisements.dll mtoken: 0x0a00000f due to: Method not found: void UnityEngine.UnityAPICompatibilityVersionAttribute..ctor(string,string[])
+Mono: successfully reloaded assembly
+- Completed reload, in  3.144 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3146ms)
+		BeginReloadAssembly (302ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (10ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (1ms)
+			CreateAndSetChildDomain (47ms)
+		EndReloadAssembly (2539ms)
+			LoadAssemblies (435ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (723ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (277ms)
+			SetupLoadedEditorAssemblies (996ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (11ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (197ms)
+				BeforeProcessingInitializeOnLoad (185ms)
+				ProcessInitializeOnLoadAttributes (493ms)
+				ProcessInitializeOnLoadMethodAttributes (107ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launching external process: /Applications/Unity/Hub/Editor/2021.3.10f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.10 seconds
+Refreshing native plugins compatible for Editor in 1.47 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4406 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 64 unused Assets / (45.2 KB). Loaded Objects now: 4841.
+Memory consumption went from 279.6 MB to 279.6 MB.
+Total: 5.073222 ms (FindLiveObjects: 0.394864 ms CreateObjectMapping: 0.271516 ms MarkObjects: 4.284805 ms  DeleteObjects: 0.120800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 499972.301091 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Character
+  artifactKey: Guid(294ff020c445c433287d958b32086662) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Character using Guid(294ff020c445c433287d958b32086662) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c05cf7b32f30c66c315847f20e2d8306') in 0.019131 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 19.731650 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Character/Double_Jump_Dust_5.png
+  artifactKey: Guid(3cacd765451c849cc8b464831982f137) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Character/Double_Jump_Dust_5.png using Guid(3cacd765451c849cc8b464831982f137) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0cd4252565d487b979d068b375baa41b') in 0.590725 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000341 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Character/Pink_Monster.png
+  artifactKey: Guid(0a618931f341a46ccb9196541e251055) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Character/Pink_Monster.png using Guid(0a618931f341a46ccb9196541e251055) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd7d1c028a213d5a4f15a66af7f24203') in 0.057654 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000096 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Character/Pink_Monster_Climb_4.png
+  artifactKey: Guid(d199881dd5a224d66a6c5937606c1b73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Character/Pink_Monster_Climb_4.png using Guid(d199881dd5a224d66a6c5937606c1b73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9dc6b4ed8348a452e417ac01c89457aa') in 0.038636 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.005741 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Character/Pink_Monster_Walk_6.png
+  artifactKey: Guid(9da9d35d0819a4a58a32bfbf9e0b795a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Character/Pink_Monster_Walk_6.png using Guid(9da9d35d0819a4a58a32bfbf9e0b795a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54f27cf74ebc859556a2e5e5fbea0f8b') in 0.040679 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001509 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Character/Pink_Monster_Attack2_6.png
+  artifactKey: Guid(f4d8393e76a5e4187a6d02ff3c997ef0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Character/Pink_Monster_Attack2_6.png using Guid(f4d8393e76a5e4187a6d02ff3c997ef0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb26257b0dbacd6161c41d851c4bd51a') in 0.096458 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000098 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Character/Rock1.png
+  artifactKey: Guid(6b5313a8d042744f09b3279468bc00ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Character/Rock1.png using Guid(6b5313a8d042744f09b3279468bc00ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a8807e6007db6e833aa886b5451cd2e') in 0.031138 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000116 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Character/Pink_Monster_Jump_8.png
+  artifactKey: Guid(837a4735e11244d1d8598a7e7cb54e03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Character/Pink_Monster_Jump_8.png using Guid(837a4735e11244d1d8598a7e7cb54e03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '666c83964b8eaa11d9eb8aa010d31a73') in 0.065743 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000115 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Character/Rock2.png
+  artifactKey: Guid(ff2a6355c66614b0fa371ea6c2241303) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Character/Rock2.png using Guid(ff2a6355c66614b0fa371ea6c2241303) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '269dba0500ccf79071816323e3a1a8da') in 0.276167 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000094 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Character/Pink_Monster_Walk+Attack_6.png
+  artifactKey: Guid(9ba1fe2bcd61d4904b5d4f76fd5c7fba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Character/Pink_Monster_Walk+Attack_6.png using Guid(9ba1fe2bcd61d4904b5d4f76fd5c7fba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56e78ac157488c65d0933b85aa4dfbec') in 0.644527 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000108 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Character/Pink_Monster_Hurt_4.png
+  artifactKey: Guid(28f2267824e6a4203b5aef16f0848490) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Character/Pink_Monster_Hurt_4.png using Guid(28f2267824e6a4203b5aef16f0848490) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'edcc9fe1664f3099759d3e78f56be770') in 0.170556 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000695 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Character/Pink_Monster_Death_8.png
+  artifactKey: Guid(5ba843cae035b47fea4e3a1e57520b25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Character/Pink_Monster_Death_8.png using Guid(5ba843cae035b47fea4e3a1e57520b25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '191cb1633ced7554b249c9623c4a0e4d') in 0.059869 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000116 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Character/Pink_Monster_Idle_4.png
+  artifactKey: Guid(6010d4beeb141421bb25f53b88abbbdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Character/Pink_Monster_Idle_4.png using Guid(6010d4beeb141421bb25f53b88abbbdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78c9fbfc8a71aaae9bf0811e7d68d951') in 0.067510 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000133 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Character/Pink_Monster_Run_6.png
+  artifactKey: Guid(b6ef493c9784840839fa38dd569b6ab3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Character/Pink_Monster_Run_6.png using Guid(b6ef493c9784840839fa38dd569b6ab3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8ea55f2900436654e85489f3dd6ea04') in 0.025970 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.002052 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Character/Pink_Monster_Push_6.png
+  artifactKey: Guid(8e25d572283cc4ba2b91b9e6457e5a46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Character/Pink_Monster_Push_6.png using Guid(8e25d572283cc4ba2b91b9e6457e5a46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e3572df0396307676ab019f54474a89') in 0.026559 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000111 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Character/Pink_Monster_Attack1_4.png
+  artifactKey: Guid(16340758b474b44ee9f611f97ba91368) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Character/Pink_Monster_Attack1_4.png using Guid(16340758b474b44ee9f611f97ba91368) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ca800585bb1379555a76e284e0e26ca') in 0.057397 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000099 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Character/Walk_Run_Push_Dust_6.png
+  artifactKey: Guid(cfbb392f55968480dbba03e11c7c7fac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Character/Walk_Run_Push_Dust_6.png using Guid(cfbb392f55968480dbba03e11c7c7fac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'adce3b1d03c30119abbda89e966b12ea') in 0.030519 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000098 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Character/Pink_Monster_Throw_4.png
+  artifactKey: Guid(81795b9e7ee494bc88f3531afadf1d8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Character/Pink_Monster_Throw_4.png using Guid(81795b9e7ee494bc88f3531afadf1d8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8343e945806dba1d42a7f8589bcb3a84') in 0.048094 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.829063 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Character/Pink_Monster_Jump_8.png
+  artifactKey: Guid(837a4735e11244d1d8598a7e7cb54e03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Character/Pink_Monster_Jump_8.png using Guid(837a4735e11244d1d8598a7e7cb54e03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1855d921cdabe5a45aeedaf54c0c459d') in 0.039017 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.113372 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Character/Double_Jump_Dust_5.png
+  artifactKey: Guid(3cacd765451c849cc8b464831982f137) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Character/Double_Jump_Dust_5.png using Guid(3cacd765451c849cc8b464831982f137) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3071df6ad382bf94e35d02ae012bbfa7') in 0.041159 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000128 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Character/Pink_Monster.png
+  artifactKey: Guid(0a618931f341a46ccb9196541e251055) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Character/Pink_Monster.png using Guid(0a618931f341a46ccb9196541e251055) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6feafa847614f087e96dccf8d4f71c7') in 0.033864 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000109 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Character/Pink_Monster_Climb_4.png
+  artifactKey: Guid(d199881dd5a224d66a6c5937606c1b73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Character/Pink_Monster_Climb_4.png using Guid(d199881dd5a224d66a6c5937606c1b73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef919832c989ceb642274f31cabaeea2') in 0.058885 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001754 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Character/Pink_Monster_Walk_6.png
+  artifactKey: Guid(9da9d35d0819a4a58a32bfbf9e0b795a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Character/Pink_Monster_Walk_6.png using Guid(9da9d35d0819a4a58a32bfbf9e0b795a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '632a6d11b93d6d5ecaa0572bcdbc41da') in 0.069455 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000146 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Character/Pink_Monster_Attack2_6.png
+  artifactKey: Guid(f4d8393e76a5e4187a6d02ff3c997ef0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Character/Pink_Monster_Attack2_6.png using Guid(f4d8393e76a5e4187a6d02ff3c997ef0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd72d3f3d61885eaf703b9eb79400413a') in 0.134625 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000631 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Character/Rock1.png
+  artifactKey: Guid(6b5313a8d042744f09b3279468bc00ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Character/Rock1.png using Guid(6b5313a8d042744f09b3279468bc00ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1ff747d0e87ad8e5a42b740dbadec63') in 0.056487 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001804 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Character/Rock2.png
+  artifactKey: Guid(ff2a6355c66614b0fa371ea6c2241303) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Character/Rock2.png using Guid(ff2a6355c66614b0fa371ea6c2241303) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d59642de6f7d1ff5bf9e4aeed1c5d00') in 0.063603 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000600 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Character/Pink_Monster_Walk+Attack_6.png
+  artifactKey: Guid(9ba1fe2bcd61d4904b5d4f76fd5c7fba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Character/Pink_Monster_Walk+Attack_6.png using Guid(9ba1fe2bcd61d4904b5d4f76fd5c7fba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '630e57b22eba33042314086f988a47a2') in 0.046651 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000297 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Character/Pink_Monster_Hurt_4.png
+  artifactKey: Guid(28f2267824e6a4203b5aef16f0848490) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Character/Pink_Monster_Hurt_4.png using Guid(28f2267824e6a4203b5aef16f0848490) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca16fb0d29fe8d98e9a17a70bb210e19') in 0.036234 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000459 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Character/Pink_Monster_Death_8.png
+  artifactKey: Guid(5ba843cae035b47fea4e3a1e57520b25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Character/Pink_Monster_Death_8.png using Guid(5ba843cae035b47fea4e3a1e57520b25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a0aa97eeeddd83ed199e7dd8f857fb2') in 0.053041 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000083 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Character/Pink_Monster_Idle_4.png
+  artifactKey: Guid(6010d4beeb141421bb25f53b88abbbdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Character/Pink_Monster_Idle_4.png using Guid(6010d4beeb141421bb25f53b88abbbdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aaec545fd6962c89ab9983ec05814a17') in 0.032402 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000187 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Character/Pink_Monster_Run_6.png
+  artifactKey: Guid(b6ef493c9784840839fa38dd569b6ab3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Character/Pink_Monster_Run_6.png using Guid(b6ef493c9784840839fa38dd569b6ab3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73c5e23c5ccfe26c8cf83e99567ef571') in 0.057832 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000099 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Character/Pink_Monster_Push_6.png
+  artifactKey: Guid(8e25d572283cc4ba2b91b9e6457e5a46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Character/Pink_Monster_Push_6.png using Guid(8e25d572283cc4ba2b91b9e6457e5a46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5972a0ba57c63f8673c7f61cfc1e65a2') in 0.050057 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000126 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Character/Pink_Monster_Attack1_4.png
+  artifactKey: Guid(16340758b474b44ee9f611f97ba91368) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Character/Pink_Monster_Attack1_4.png using Guid(16340758b474b44ee9f611f97ba91368) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '742e97bdf6a477f9ef3d227fdb374d23') in 0.051011 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.038498 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Character/Walk_Run_Push_Dust_6.png
+  artifactKey: Guid(cfbb392f55968480dbba03e11c7c7fac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Character/Walk_Run_Push_Dust_6.png using Guid(cfbb392f55968480dbba03e11c7c7fac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b600bea554733fe6a96931e757b06b16') in 0.041758 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000171 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Character/Pink_Monster_Throw_4.png
+  artifactKey: Guid(81795b9e7ee494bc88f3531afadf1d8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Character/Pink_Monster_Throw_4.png using Guid(81795b9e7ee494bc88f3531afadf1d8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f54962e5a2aaa5b138f1e2494e5b66a') in 0.060751 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008643 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/tan.hoang/Desktop/Midnigt Cravings/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image /Users/tan.hoang/Desktop/Midnigt Cravings/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.62 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Can't find custom attr constructor image: /Users/tan.hoang/Desktop/Midnigt Cravings/Library/PackageCache/com.unity.ads@3.4.5/Editor/UnityEditor.Advertisements.dll mtoken: 0x0a00000f due to: Method not found: void UnityEngine.UnityAPICompatibilityVersionAttribute..ctor(string,string[])
+Mono: successfully reloaded assembly
+- Completed reload, in  3.796 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3797ms)
+		BeginReloadAssembly (468ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (17ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (162ms)
+		EndReloadAssembly (3000ms)
+			LoadAssemblies (515ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (850ms)
+			ReleaseScriptCaches (5ms)
+			RebuildScriptCaches (206ms)
+			SetupLoadedEditorAssemblies (1308ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (31ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (229ms)
+				ProcessInitializeOnLoadAttributes (858ms)
+				ProcessInitializeOnLoadMethodAttributes (184ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (31ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 6.85 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4381 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 51 unused Assets / (23.0 KB). Loaded Objects now: 4865.
+Memory consumption went from 288.0 MB to 287.9 MB.
+Total: 18.200855 ms (FindLiveObjects: 0.518584 ms CreateObjectMapping: 0.309647 ms MarkObjects: 17.328605 ms  DeleteObjects: 0.042289 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 95.452509 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Character/New Animation.anim
+  artifactKey: Guid(5c4c7fb22833c4ae9b855a6824944b27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Character/New Animation.anim using Guid(5c4c7fb22833c4ae9b855a6824944b27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be4eac097eb0a18c885259dee760344b') in 1.973622 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.501258 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Character/Player_Idle.anim
+  artifactKey: Guid(5c4c7fb22833c4ae9b855a6824944b27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Character/Player_Idle.anim using Guid(5c4c7fb22833c4ae9b855a6824944b27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58fdd42e66ba985a2413c3112bb221c3') in 0.033023 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 63.060361 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Character/Pink_Monster_Idle_4.png
+  artifactKey: Guid(6010d4beeb141421bb25f53b88abbbdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Character/Pink_Monster_Idle_4.png using Guid(6010d4beeb141421bb25f53b88abbbdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d126d4bf391537eab7e33ac27635d4d') in 0.082907 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.587704 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Character/Pink_Monster_Idle_4.png
+  artifactKey: Guid(6010d4beeb141421bb25f53b88abbbdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Character/Pink_Monster_Idle_4.png using Guid(6010d4beeb141421bb25f53b88abbbdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24efaa099d1ae5aa4cb9b84da3941e79') in 0.094370 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 167.241507 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Character/Pink_Monster_Run_6.png
+  artifactKey: Guid(b6ef493c9784840839fa38dd569b6ab3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Character/Pink_Monster_Run_6.png using Guid(b6ef493c9784840839fa38dd569b6ab3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06a009b3ef0673c6be0e8c506155de96') in 0.025679 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.545068 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Character/Pink_Monster_Run_6.png
+  artifactKey: Guid(b6ef493c9784840839fa38dd569b6ab3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Character/Pink_Monster_Run_6.png using Guid(b6ef493c9784840839fa38dd569b6ab3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66a8eb102233a30ee29580698e3c1ff7') in 0.104230 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 62.780148 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Character/Pink_Monster_Jump_8.png
+  artifactKey: Guid(837a4735e11244d1d8598a7e7cb54e03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Character/Pink_Monster_Jump_8.png using Guid(837a4735e11244d1d8598a7e7cb54e03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca1f01fd4c812b094fe0dbf864037e9d') in 0.022013 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.636877 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Character/Pink_Monster_Jump_8.png
+  artifactKey: Guid(837a4735e11244d1d8598a7e7cb54e03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Character/Pink_Monster_Jump_8.png using Guid(837a4735e11244d1d8598a7e7cb54e03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d0fd9b9cbb48efb27f906ea967c8b75') in 0.123445 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005529 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/tan.hoang/Desktop/Midnigt Cravings/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image /Users/tan.hoang/Desktop/Midnigt Cravings/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.67 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Can't find custom attr constructor image: /Users/tan.hoang/Desktop/Midnigt Cravings/Library/PackageCache/com.unity.ads@3.4.5/Editor/UnityEditor.Advertisements.dll mtoken: 0x0a00000f due to: Method not found: void UnityEngine.UnityAPICompatibilityVersionAttribute..ctor(string,string[])
+Mono: successfully reloaded assembly
+- Completed reload, in  3.860 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3861ms)
+		BeginReloadAssembly (327ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (14ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (114ms)
+		EndReloadAssembly (3249ms)
+			LoadAssemblies (242ms)
+			RebuildTransferFunctionScriptingTraits (1ms)
+			SetupTypeCache (921ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (174ms)
+			SetupLoadedEditorAssemblies (1606ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (33ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (355ms)
+				ProcessInitializeOnLoadAttributes (1048ms)
+				ProcessInitializeOnLoadMethodAttributes (151ms)
+				AfterProcessingInitializeOnLoad (15ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (21ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 10.39 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4381 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 51 unused Assets / (23.2 KB). Loaded Objects now: 4868.
+Memory consumption went from 293.0 MB to 293.0 MB.
+Total: 11.911793 ms (FindLiveObjects: 0.701858 ms CreateObjectMapping: 5.587868 ms MarkObjects: 5.565351 ms  DeleteObjects: 0.054077 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 114.837277 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Character/Pink_Monster_Death_8.png
+  artifactKey: Guid(5ba843cae035b47fea4e3a1e57520b25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Character/Pink_Monster_Death_8.png using Guid(5ba843cae035b47fea4e3a1e57520b25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2a71b5bff80db2517bd96d307aa4aa8') in 0.135302 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13.233491 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Character/Pink_Monster_Death_8.png
+  artifactKey: Guid(5ba843cae035b47fea4e3a1e57520b25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Character/Pink_Monster_Death_8.png using Guid(5ba843cae035b47fea4e3a1e57520b25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8bae48c3a18190cd14dab9aace85b3d') in 0.244938 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.010477 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/tan.hoang/Desktop/Midnigt Cravings/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image /Users/tan.hoang/Desktop/Midnigt Cravings/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 2.67 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Can't find custom attr constructor image: /Users/tan.hoang/Desktop/Midnigt Cravings/Library/PackageCache/com.unity.ads@3.4.5/Editor/UnityEditor.Advertisements.dll mtoken: 0x0a00000f due to: Method not found: void UnityEngine.UnityAPICompatibilityVersionAttribute..ctor(string,string[])
+Mono: successfully reloaded assembly
+- Completed reload, in  3.811 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3812ms)
+		BeginReloadAssembly (363ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (15ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (109ms)
+		EndReloadAssembly (2751ms)
+			LoadAssemblies (450ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (910ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (166ms)
+			SetupLoadedEditorAssemblies (1192ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (44ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (3ms)
+				BeforeProcessingInitializeOnLoad (253ms)
+				ProcessInitializeOnLoadAttributes (791ms)
+				ProcessInitializeOnLoadMethodAttributes (97ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (14ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 6.49 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4381 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 51 unused Assets / (23.0 KB). Loaded Objects now: 4871.
+Memory consumption went from 293.3 MB to 293.3 MB.
+Total: 12.627823 ms (FindLiveObjects: 0.763815 ms CreateObjectMapping: 0.544463 ms MarkObjects: 11.261244 ms  DeleteObjects: 0.056820 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008874 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/tan.hoang/Desktop/Midnigt Cravings/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image /Users/tan.hoang/Desktop/Midnigt Cravings/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 2.30 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Can't find custom attr constructor image: /Users/tan.hoang/Desktop/Midnigt Cravings/Library/PackageCache/com.unity.ads@3.4.5/Editor/UnityEditor.Advertisements.dll mtoken: 0x0a00000f due to: Method not found: void UnityEngine.UnityAPICompatibilityVersionAttribute..ctor(string,string[])
+Mono: successfully reloaded assembly
+- Completed reload, in  4.383 seconds
+Domain Reload Profiling:
+	ReloadAssembly (4384ms)
+		BeginReloadAssembly (782ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (20ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (198ms)
+		EndReloadAssembly (3050ms)
+			LoadAssemblies (583ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (1010ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (168ms)
+			SetupLoadedEditorAssemblies (1464ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (28ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (332ms)
+				ProcessInitializeOnLoadAttributes (973ms)
+				ProcessInitializeOnLoadMethodAttributes (124ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (22ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 5.65 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4381 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 51 unused Assets / (53.5 KB). Loaded Objects now: 4874.
+Memory consumption went from 293.5 MB to 293.5 MB.
+Total: 5.891005 ms (FindLiveObjects: 0.390371 ms CreateObjectMapping: 0.706426 ms MarkObjects: 4.665849 ms  DeleteObjects: 0.126094 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.011043 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/tan.hoang/Desktop/Midnigt Cravings/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image /Users/tan.hoang/Desktop/Midnigt Cravings/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.98 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Can't find custom attr constructor image: /Users/tan.hoang/Desktop/Midnigt Cravings/Library/PackageCache/com.unity.ads@3.4.5/Editor/UnityEditor.Advertisements.dll mtoken: 0x0a00000f due to: Method not found: void UnityEngine.UnityAPICompatibilityVersionAttribute..ctor(string,string[])
+Mono: successfully reloaded assembly
+- Completed reload, in  3.465 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3466ms)
+		BeginReloadAssembly (364ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (15ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (111ms)
+		EndReloadAssembly (2770ms)
+			LoadAssemblies (322ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (1007ms)
+			ReleaseScriptCaches (5ms)
+			RebuildScriptCaches (212ms)
+			SetupLoadedEditorAssemblies (1115ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (29ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (185ms)
+				ProcessInitializeOnLoadAttributes (755ms)
+				ProcessInitializeOnLoadMethodAttributes (140ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (21ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 8.93 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4381 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 51 unused Assets / (23.1 KB). Loaded Objects now: 4877.
+Memory consumption went from 293.8 MB to 293.7 MB.
+Total: 9.354014 ms (FindLiveObjects: 0.673334 ms CreateObjectMapping: 2.198571 ms MarkObjects: 6.428999 ms  DeleteObjects: 0.051370 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 203.524982 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Items
+  artifactKey: Guid(45aa8edc5710be2418fa949495904348) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Items using Guid(45aa8edc5710be2418fa949495904348) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '558407e5991d9bafb3217e36cc9db8ba') in 0.045600 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 352.014892 seconds.
+  path: Assets/Japanese Dishes/PNGs/japanese_food_01.png
+  artifactKey: Guid(54e38ee4a0b599942ab1949948fee7c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Japanese Dishes/PNGs/japanese_food_01.png using Guid(54e38ee4a0b599942ab1949948fee7c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '307bb424ef159453e29d9b1635f6d20a') in 0.107908 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000120 seconds.
+  path: Assets/Japanese Dishes/PNGs/japanese_food_17.png
+  artifactKey: Guid(13abb4172986f1a41bbd9a3f57b32ec0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Japanese Dishes/PNGs/japanese_food_17.png using Guid(13abb4172986f1a41bbd9a3f57b32ec0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18f27b52b5c46beb416db4faed1ad0de') in 0.040274 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000079 seconds.
+  path: Assets/Japanese Dishes/PNGs/japanese_food_13_shadow.png
+  artifactKey: Guid(645d1b3cdc1862540b74224b59718494) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Japanese Dishes/PNGs/japanese_food_13_shadow.png using Guid(645d1b3cdc1862540b74224b59718494) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44df5b08d87441937722181c780278e8') in 0.053425 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000168 seconds.
+  path: Assets/Japanese Dishes/PNGs/japanese_food_14.png
+  artifactKey: Guid(6b6aa07ff38da884db23a93cdc5929e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Japanese Dishes/PNGs/japanese_food_14.png using Guid(6b6aa07ff38da884db23a93cdc5929e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '996e5292f7a976e0e9dd5d889e446cfa') in 0.080070 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000111 seconds.
+  path: Assets/Japanese Dishes/PNGs/japanese_food_15.png
+  artifactKey: Guid(75253af28112fa049a2c288d6f952ad6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Japanese Dishes/PNGs/japanese_food_15.png using Guid(75253af28112fa049a2c288d6f952ad6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa7a6045b75c0f3b51fe355474db14ab') in 0.039087 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000152 seconds.
+  path: Assets/Japanese Dishes/PNGs/japanese_food_10_shadow.png
+  artifactKey: Guid(71a571f6e451fb0469142c56a535b347) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Japanese Dishes/PNGs/japanese_food_10_shadow.png using Guid(71a571f6e451fb0469142c56a535b347) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c859b28ca2af044ab57f7c7fbd4d86a6') in 0.051184 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000110 seconds.
+  path: Assets/Japanese Dishes/PNGs/japanese_food_12.png
+  artifactKey: Guid(db97e1e9f2ad1ca47ae3a27747701e54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Japanese Dishes/PNGs/japanese_food_12.png using Guid(db97e1e9f2ad1ca47ae3a27747701e54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfc8166e07502b1c6e51275e2d51d954') in 0.041296 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000110 seconds.
+  path: Assets/Japanese Dishes/PNGs/japanese_food_05.png
+  artifactKey: Guid(d8e2e84f7d9f9504c9aae39af5ccd1fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Japanese Dishes/PNGs/japanese_food_05.png using Guid(d8e2e84f7d9f9504c9aae39af5ccd1fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4698d58d103f886c55fbdc32acbb0a93') in 0.053763 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000096 seconds.
+  path: Assets/Japanese Dishes/PNGs/japanese_food_01_shadow.png
+  artifactKey: Guid(16cd7ac1e7206cb4a84b1fe46fb4713d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Japanese Dishes/PNGs/japanese_food_01_shadow.png using Guid(16cd7ac1e7206cb4a84b1fe46fb4713d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '380f67c741e44a25ea5a48e392dff3dd') in 0.061455 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000121 seconds.
+  path: Assets/Japanese Dishes/PNGs/japanese_food_07.png
+  artifactKey: Guid(57d171fe97871c546867903405e82b02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Japanese Dishes/PNGs/japanese_food_07.png using Guid(57d171fe97871c546867903405e82b02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33a203f7cef405909712027b3f57c096') in 0.062639 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001956 seconds.
+  path: Assets/Japanese Dishes/PNGs/japanese_food_07_shadow.png
+  artifactKey: Guid(a77c8f0cb5a9f214c85c148e3a327d2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Japanese Dishes/PNGs/japanese_food_07_shadow.png using Guid(a77c8f0cb5a9f214c85c148e3a327d2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69721685f7f7bc926fa7701c2e0c0e53') in 0.131143 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000268 seconds.
+  path: Assets/Japanese Dishes/PNGs/japanese_food_04.png
+  artifactKey: Guid(59fc7008802c0484a8ddf06704a2e07b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Japanese Dishes/PNGs/japanese_food_04.png using Guid(59fc7008802c0484a8ddf06704a2e07b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01a98807fa26d5e3a5b4fdcaed9a1202') in 0.087852 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000442 seconds.
+  path: Assets/Japanese Dishes/PNGs/japanese_food_08.png
+  artifactKey: Guid(d1029422f3b946b4b8c40158a32e032d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Japanese Dishes/PNGs/japanese_food_08.png using Guid(d1029422f3b946b4b8c40158a32e032d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ba4c60cf63e3e32b57fba6f35613a95') in 0.037998 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000104 seconds.
+  path: Assets/Japanese Dishes/PNGs/japanese_food_03_shadow.png
+  artifactKey: Guid(f2ed199590d58284da615025792bed8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Japanese Dishes/PNGs/japanese_food_03_shadow.png using Guid(f2ed199590d58284da615025792bed8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5db1aac5d888742e8835006636602c4d') in 0.074410 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000420 seconds.
+  path: Assets/Japanese Dishes/PNGs/japanese_food_03.png
+  artifactKey: Guid(c82d61de01af99b4ab299ce19678bbff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Japanese Dishes/PNGs/japanese_food_03.png using Guid(c82d61de01af99b4ab299ce19678bbff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a615b20bbf963335a60df3f6a56773a') in 0.192434 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000298 seconds.
+  path: Assets/Japanese Dishes/PNGs/japanese_food_06_shadow.png
+  artifactKey: Guid(cdeb17ee04b736649b9eb81c37e0abdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Japanese Dishes/PNGs/japanese_food_06_shadow.png using Guid(cdeb17ee04b736649b9eb81c37e0abdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba9196a38e2a2b803872b2bec512ae9f') in 0.080955 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000096 seconds.
+  path: Assets/Japanese Dishes/PNGs/japanese_food_06.png
+  artifactKey: Guid(262a0cf8101335c429473fc17f9fb356) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Japanese Dishes/PNGs/japanese_food_06.png using Guid(262a0cf8101335c429473fc17f9fb356) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd138e64e977da394ce34a4448c69e7de') in 0.099612 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000182 seconds.
+  path: Assets/Japanese Dishes/PNGs/japanese_food_10.png
+  artifactKey: Guid(40d1856dae65f184b8b88b0b65ad61cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Japanese Dishes/PNGs/japanese_food_10.png using Guid(40d1856dae65f184b8b88b0b65ad61cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2351e90e515652ad6b932f62e7808b65') in 0.082838 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000138 seconds.
+  path: Assets/Japanese Dishes/PNGs/japanese_food_08_shadow.png
+  artifactKey: Guid(aa0566904ca3fbd45ad35a04ac9c4c87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Japanese Dishes/PNGs/japanese_food_08_shadow.png using Guid(aa0566904ca3fbd45ad35a04ac9c4c87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9bcc2c521ad69339d9690bbe9f822c53') in 0.162623 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000101 seconds.
+  path: Assets/Japanese Dishes/PNGs/japanese_food_13.png
+  artifactKey: Guid(aef72625293efa84fad0a169d11599fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Japanese Dishes/PNGs/japanese_food_13.png using Guid(aef72625293efa84fad0a169d11599fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce9532ede91efb09d4cb4f897e277473') in 0.040776 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000122 seconds.
+  path: Assets/Japanese Dishes/PNGs/japanese_food_02_shadow.png
+  artifactKey: Guid(34a1eed932c98824484e79f43cb23896) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Japanese Dishes/PNGs/japanese_food_02_shadow.png using Guid(34a1eed932c98824484e79f43cb23896) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16d460f6cd89c96d10bbc1114b5041c7') in 0.097129 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000188 seconds.
+  path: Assets/Japanese Dishes/PNGs/japanese_food_04_shadow.png
+  artifactKey: Guid(72ad32f94f5e54646bd557221e818c2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Japanese Dishes/PNGs/japanese_food_04_shadow.png using Guid(72ad32f94f5e54646bd557221e818c2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37c69df0112e230bb0427a42b7f6e74a') in 0.077673 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000107 seconds.
+  path: Assets/Japanese Dishes/PNGs/japanese_food_11.png
+  artifactKey: Guid(052448aac9d963c4cbda749d2f004959) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Japanese Dishes/PNGs/japanese_food_11.png using Guid(052448aac9d963c4cbda749d2f004959) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be4e8e56df183dd005241e22a9271595') in 0.075776 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000118 seconds.
+  path: Assets/Japanese Dishes/PNGs/japanese_food_09_shadow.png
+  artifactKey: Guid(12722c974c6ead0498c3fdf04171718f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Japanese Dishes/PNGs/japanese_food_09_shadow.png using Guid(12722c974c6ead0498c3fdf04171718f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e50dae9235fba7d4d983bc006fe26e70') in 0.055961 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000086 seconds.
+  path: Assets/Japanese Dishes/PNGs/japanese_food_14_shadow.png
+  artifactKey: Guid(8314733e8c1c2a940801850a177e5110) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Japanese Dishes/PNGs/japanese_food_14_shadow.png using Guid(8314733e8c1c2a940801850a177e5110) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '329dae5c5fd36296a3144b80af4bdfae') in 0.068721 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000085 seconds.
+  path: Assets/Japanese Dishes/PNGs/japanese_food_15_shadow.png
+  artifactKey: Guid(9338c187b8776944ab1ed59cc7aebd82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Japanese Dishes/PNGs/japanese_food_15_shadow.png using Guid(9338c187b8776944ab1ed59cc7aebd82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '642b7bdfc9de50664999940e97fcbd46') in 0.056134 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000095 seconds.
+  path: Assets/Japanese Dishes/PNGs/japanese_food_11_shadow.png
+  artifactKey: Guid(c61ffeed20f7c04448185ad26d8b1c6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Japanese Dishes/PNGs/japanese_food_11_shadow.png using Guid(c61ffeed20f7c04448185ad26d8b1c6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a19f700f74c4b09b2cd170c083b26a2a') in 0.085325 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.013650 seconds.
+  path: Assets/Japanese Dishes/PNGs/japanese_food_02.png
+  artifactKey: Guid(d79c1007a13b22e44a12aea3b530d400) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Japanese Dishes/PNGs/japanese_food_02.png using Guid(d79c1007a13b22e44a12aea3b530d400) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b183cf092cd04a915830c1dffb92ce2e') in 0.095030 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000214 seconds.
+  path: Assets/Japanese Dishes/PNGs/japanese_food_12_shadow.png
+  artifactKey: Guid(434b40c78a318c64b9f356bb0aeee8d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Japanese Dishes/PNGs/japanese_food_12_shadow.png using Guid(434b40c78a318c64b9f356bb0aeee8d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '842f67fd81e3185d671cdf80b59d0428') in 0.037147 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000118 seconds.
+  path: Assets/Japanese Dishes/PNGs/japanese_food_16_shadow.png
+  artifactKey: Guid(af910f7262188fa4f8ec1283771902d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Japanese Dishes/PNGs/japanese_food_16_shadow.png using Guid(af910f7262188fa4f8ec1283771902d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77da754952f7d34a0049c50249331ae8') in 0.080529 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000086 seconds.
+  path: Assets/Japanese Dishes/PNGs/japanese_food_05_shadow.png
+  artifactKey: Guid(dc216dc0a1c16e94788ed73e8fc24828) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Japanese Dishes/PNGs/japanese_food_05_shadow.png using Guid(dc216dc0a1c16e94788ed73e8fc24828) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e37c394b7c9c4f8f068a7f10c241102') in 0.058437 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000127 seconds.
+  path: Assets/Japanese Dishes/PNGs/japanese_food_09.png
+  artifactKey: Guid(9fb6c8ba93b115542bc7c03577c8cf0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Japanese Dishes/PNGs/japanese_food_09.png using Guid(9fb6c8ba93b115542bc7c03577c8cf0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '084bf801a74236f4d902897b9d8c5916') in 0.039099 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.002263 seconds.
+  path: Assets/Japanese Dishes/PNGs/japanese_food_16.png
+  artifactKey: Guid(9f978d9366d0ac045b71675971b85045) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Japanese Dishes/PNGs/japanese_food_16.png using Guid(9f978d9366d0ac045b71675971b85045) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4a2b038ac4cd6707a590116f60bf357') in 0.111911 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 15.450348 seconds.
+  path: Assets/Japanese Dishes/PNGs/japanese_food_17_shadow.png
+  artifactKey: Guid(ffcf215ade065c14db7a2319b4c5b9c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Japanese Dishes/PNGs/japanese_food_17_shadow.png using Guid(ffcf215ade065c14db7a2319b4c5b9c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28ca695aa1c967a7edebab86cc30ad3b') in 0.043570 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000132 seconds.
+  path: Assets/Japanese Dishes/PNGs/japanese_food_19_shadow.png
+  artifactKey: Guid(8cff6b6233457f84bbc6c6b2723316e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Japanese Dishes/PNGs/japanese_food_19_shadow.png using Guid(8cff6b6233457f84bbc6c6b2723316e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd66c26e83d605d1330c760d14dc1a878') in 0.062999 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000340 seconds.
+  path: Assets/Japanese Dishes/PNGs/japanese_food_20_shadow.png
+  artifactKey: Guid(f9d0b8987c2f8b94dafb50e58650763e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Japanese Dishes/PNGs/japanese_food_20_shadow.png using Guid(f9d0b8987c2f8b94dafb50e58650763e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef8fc9421897be8d2f917e4a3bca086c') in 0.049837 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000882 seconds.
+  path: Assets/Japanese Dishes/PNGs/japanese_food_19.png
+  artifactKey: Guid(d8ea87c1856395c47a2a5c272e883080) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Japanese Dishes/PNGs/japanese_food_19.png using Guid(d8ea87c1856395c47a2a5c272e883080) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffae3c8104e1494941e5c0b45cc860ee') in 0.047716 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000237 seconds.
+  path: Assets/Japanese Dishes/PNGs/japanese_food_22.png
+  artifactKey: Guid(d1cb4e81a62cd6f4eb57615797edefa6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Japanese Dishes/PNGs/japanese_food_22.png using Guid(d1cb4e81a62cd6f4eb57615797edefa6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5553102ab059b8f8fdfb6f0f5fa81dc1') in 0.062895 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000083 seconds.
+  path: Assets/Japanese Dishes/PNGs/japanese_food_18.png
+  artifactKey: Guid(d874f4540a4f31f40b1560c5016ff8c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Japanese Dishes/PNGs/japanese_food_18.png using Guid(d874f4540a4f31f40b1560c5016ff8c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5fe21f1404f4a27cc03e94e66109087') in 0.085102 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000094 seconds.
+  path: Assets/Japanese Dishes/PNGs/japanese_food_22_shadow.png
+  artifactKey: Guid(2dedc7eb7d22ac1438cc8463cd1e2c16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Japanese Dishes/PNGs/japanese_food_22_shadow.png using Guid(2dedc7eb7d22ac1438cc8463cd1e2c16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46c16d543ae43261741008f1fca6e9e8') in 0.055199 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000171 seconds.
+  path: Assets/Japanese Dishes/PNGs/japanese_food_21.png
+  artifactKey: Guid(a3058a2432ff46c49b90468fd475e9de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Japanese Dishes/PNGs/japanese_food_21.png using Guid(a3058a2432ff46c49b90468fd475e9de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f168e1710fdbd2a8ff03cd0ab06a80b8') in 0.096977 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000141 seconds.
+  path: Assets/Japanese Dishes/PNGs/japanese_food_20.png
+  artifactKey: Guid(a0419f2bb78d68745974720516f40e40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Japanese Dishes/PNGs/japanese_food_20.png using Guid(a0419f2bb78d68745974720516f40e40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c2bb9d73f420bebf61509dd8563ca4a') in 0.057629 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000714 seconds.
+  path: Assets/Japanese Dishes/PNGs/japanese_food_21_shadow.png
+  artifactKey: Guid(1c5e2ef9f463f834fa1ba08faf955fa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Japanese Dishes/PNGs/japanese_food_21_shadow.png using Guid(1c5e2ef9f463f834fa1ba08faf955fa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ecbee13bbcb098778fee85625c315d1') in 0.071627 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000144 seconds.
+  path: Assets/Japanese Dishes/PNGs/japanese_food_23_shadow.png
+  artifactKey: Guid(78e02cb4c0f50d446a39dfab94b02aed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Japanese Dishes/PNGs/japanese_food_23_shadow.png using Guid(78e02cb4c0f50d446a39dfab94b02aed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a41377763d18ac81ec8fb5379a23f38') in 0.210109 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.002143 seconds.
+  path: Assets/Japanese Dishes/PNGs/table.png
+  artifactKey: Guid(288b45f4d7c0645409d9959faf52d53b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Japanese Dishes/PNGs/table.png using Guid(288b45f4d7c0645409d9959faf52d53b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e48b0047b9b07a934b6981bb010f864') in 0.093713 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000085 seconds.
+  path: Assets/Japanese Dishes/PNGs/japanese_food_18_shadow.png
+  artifactKey: Guid(9f080f2a424577f4e963bbc165779fef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Japanese Dishes/PNGs/japanese_food_18_shadow.png using Guid(9f080f2a424577f4e963bbc165779fef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9d6608e5851c44396b3608a17e8fe3e') in 0.051528 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000152 seconds.
+  path: Assets/Japanese Dishes/PNGs/japanese_food_23.png
+  artifactKey: Guid(de8ca22626355e94a8b6f1e7d6d92b48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Japanese Dishes/PNGs/japanese_food_23.png using Guid(de8ca22626355e94a8b6f1e7d6d92b48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '221ee7541fc06d1b0184f8e965ee9eb7') in 0.068811 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 22.962959 seconds.
+  path: Assets/Japanese Dishes/PNGs/japanese_food_17.png
+  artifactKey: Guid(13abb4172986f1a41bbd9a3f57b32ec0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Japanese Dishes/PNGs/japanese_food_17.png using Guid(13abb4172986f1a41bbd9a3f57b32ec0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa21cec22c196fc8e4f8ba982cc6edf4') in 0.019420 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.153668 seconds.
+  path: Assets/Japanese Dishes/PNGs/japanese_food_05.png
+  artifactKey: Guid(d8e2e84f7d9f9504c9aae39af5ccd1fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Japanese Dishes/PNGs/japanese_food_05.png using Guid(d8e2e84f7d9f9504c9aae39af5ccd1fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '497a14b0a205f6627186aea322b26346') in 0.014171 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000080 seconds.
+  path: Assets/Japanese Dishes/PNGs/japanese_food_19_shadow.png
+  artifactKey: Guid(8cff6b6233457f84bbc6c6b2723316e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Japanese Dishes/PNGs/japanese_food_19_shadow.png using Guid(8cff6b6233457f84bbc6c6b2723316e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63772e82e67e65e5506d3a391ffbe8fe') in 0.035239 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000079 seconds.
+  path: Assets/Japanese Dishes/PNGs/japanese_food_13_shadow.png
+  artifactKey: Guid(645d1b3cdc1862540b74224b59718494) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Japanese Dishes/PNGs/japanese_food_13_shadow.png using Guid(645d1b3cdc1862540b74224b59718494) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bedb8b99c6fbe362cfe7e0445e9da1b5') in 0.011556 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.005450 seconds.
+  path: Assets/Japanese Dishes/PNGs/japanese_food_14.png
+  artifactKey: Guid(6b6aa07ff38da884db23a93cdc5929e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Japanese Dishes/PNGs/japanese_food_14.png using Guid(6b6aa07ff38da884db23a93cdc5929e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bce463f3a11bca7edd01017ebd80b1f3') in 0.014781 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/Japanese Dishes/PNGs/japanese_food_15.png
+  artifactKey: Guid(75253af28112fa049a2c288d6f952ad6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Japanese Dishes/PNGs/japanese_food_15.png using Guid(75253af28112fa049a2c288d6f952ad6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '282cf59fc883cb3aae7f3ba8087802b1') in 0.083351 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000261 seconds.
+  path: Assets/Japanese Dishes/PNGs/japanese_food_10_shadow.png
+  artifactKey: Guid(71a571f6e451fb0469142c56a535b347) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Japanese Dishes/PNGs/japanese_food_10_shadow.png using Guid(71a571f6e451fb0469142c56a535b347) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fc1ffc0b211b88a7efbb400767180f8') in 0.063864 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000166 seconds.
+  path: Assets/Japanese Dishes/PNGs/japanese_food_12.png
+  artifactKey: Guid(db97e1e9f2ad1ca47ae3a27747701e54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Japanese Dishes/PNGs/japanese_food_12.png using Guid(db97e1e9f2ad1ca47ae3a27747701e54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8522744657bb613a456df8eb494cd23') in 0.034417 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000114 seconds.
+  path: Assets/Japanese Dishes/PNGs/japanese_food_19.png
+  artifactKey: Guid(d8ea87c1856395c47a2a5c272e883080) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Japanese Dishes/PNGs/japanese_food_19.png using Guid(d8ea87c1856395c47a2a5c272e883080) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3799eaba72523288a8acda9b49ae8e8f') in 0.045735 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000122 seconds.
+  path: Assets/Japanese Dishes/PNGs/japanese_food_20_shadow.png
+  artifactKey: Guid(f9d0b8987c2f8b94dafb50e58650763e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Japanese Dishes/PNGs/japanese_food_20_shadow.png using Guid(f9d0b8987c2f8b94dafb50e58650763e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6f8f398bffcf0454c1ebf196f689bea') in 0.023327 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000111 seconds.
+  path: Assets/Japanese Dishes/PNGs/japanese_food_07.png
+  artifactKey: Guid(57d171fe97871c546867903405e82b02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Japanese Dishes/PNGs/japanese_food_07.png using Guid(57d171fe97871c546867903405e82b02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a35a8890e4baa2baa844ab66eaa3e75d') in 0.026469 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.002609 seconds.
+  path: Assets/Japanese Dishes/PNGs/japanese_food_07_shadow.png
+  artifactKey: Guid(a77c8f0cb5a9f214c85c148e3a327d2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Japanese Dishes/PNGs/japanese_food_07_shadow.png using Guid(a77c8f0cb5a9f214c85c148e3a327d2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fd41b895a2413e4d905c469dc9b63ec') in 0.093651 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000304 seconds.
+  path: Assets/Japanese Dishes/PNGs/japanese_food_08.png
+  artifactKey: Guid(d1029422f3b946b4b8c40158a32e032d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Japanese Dishes/PNGs/japanese_food_08.png using Guid(d1029422f3b946b4b8c40158a32e032d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '045fea7d0eabeeda27de29a876804ed2') in 0.025613 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000155 seconds.
+  path: Assets/Japanese Dishes/PNGs/japanese_food_06_shadow.png
+  artifactKey: Guid(cdeb17ee04b736649b9eb81c37e0abdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Japanese Dishes/PNGs/japanese_food_06_shadow.png using Guid(cdeb17ee04b736649b9eb81c37e0abdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4eb6cfdc73c14647fd0c814d3f0ed317') in 0.030398 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000104 seconds.
+  path: Assets/Japanese Dishes/PNGs/japanese_food_08_shadow.png
+  artifactKey: Guid(aa0566904ca3fbd45ad35a04ac9c4c87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Japanese Dishes/PNGs/japanese_food_08_shadow.png using Guid(aa0566904ca3fbd45ad35a04ac9c4c87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2853a9ef02124830821bce169e06a7b9') in 0.024715 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000121 seconds.
+  path: Assets/Japanese Dishes/PNGs/japanese_food_06.png
+  artifactKey: Guid(262a0cf8101335c429473fc17f9fb356) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Japanese Dishes/PNGs/japanese_food_06.png using Guid(262a0cf8101335c429473fc17f9fb356) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d39c5a4d7c03f93d65ee344c9657f3e') in 0.028120 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.002500 seconds.
+  path: Assets/Japanese Dishes/PNGs/japanese_food_10.png
+  artifactKey: Guid(40d1856dae65f184b8b88b0b65ad61cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Japanese Dishes/PNGs/japanese_food_10.png using Guid(40d1856dae65f184b8b88b0b65ad61cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db737d14f5c514b8519e7f824e98e7b9') in 0.100114 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000150 seconds.
+  path: Assets/Japanese Dishes/PNGs/japanese_food_18.png
+  artifactKey: Guid(d874f4540a4f31f40b1560c5016ff8c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Japanese Dishes/PNGs/japanese_food_18.png using Guid(d874f4540a4f31f40b1560c5016ff8c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23df595ce72ffefac9cffa92e61a24eb') in 0.034872 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000122 seconds.
+  path: Assets/Japanese Dishes/PNGs/japanese_food_13.png
+  artifactKey: Guid(aef72625293efa84fad0a169d11599fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Japanese Dishes/PNGs/japanese_food_13.png using Guid(aef72625293efa84fad0a169d11599fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '941f50637d6091ae2f499e6da10640f2') in 0.025748 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000111 seconds.
+  path: Assets/Japanese Dishes/PNGs/japanese_food_21.png
+  artifactKey: Guid(a3058a2432ff46c49b90468fd475e9de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Japanese Dishes/PNGs/japanese_food_21.png using Guid(a3058a2432ff46c49b90468fd475e9de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '752a146ee0108545daf3f6bd163fef06') in 0.039050 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000145 seconds.
+  path: Assets/Japanese Dishes/PNGs/japanese_food_20.png
+  artifactKey: Guid(a0419f2bb78d68745974720516f40e40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Japanese Dishes/PNGs/japanese_food_20.png using Guid(a0419f2bb78d68745974720516f40e40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '003ebf362de0da423b931418fcda1e7c') in 0.029003 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000090 seconds.
+  path: Assets/Japanese Dishes/PNGs/japanese_food_11.png
+  artifactKey: Guid(052448aac9d963c4cbda749d2f004959) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Japanese Dishes/PNGs/japanese_food_11.png using Guid(052448aac9d963c4cbda749d2f004959) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14d0d742cbb900e06a77a6966014a945') in 0.102574 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000182 seconds.
+  path: Assets/Japanese Dishes/PNGs/japanese_food_17_shadow.png
+  artifactKey: Guid(ffcf215ade065c14db7a2319b4c5b9c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Japanese Dishes/PNGs/japanese_food_17_shadow.png using Guid(ffcf215ade065c14db7a2319b4c5b9c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '797940d6c2c4c13e7818fe2ae91deb6d') in 0.016147 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000081 seconds.
+  path: Assets/Japanese Dishes/PNGs/japanese_food_09_shadow.png
+  artifactKey: Guid(12722c974c6ead0498c3fdf04171718f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Japanese Dishes/PNGs/japanese_food_09_shadow.png using Guid(12722c974c6ead0498c3fdf04171718f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60aea0a12f50be768a921ec9384c7a59') in 0.032042 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000109 seconds.
+  path: Assets/Japanese Dishes/PNGs/japanese_food_14_shadow.png
+  artifactKey: Guid(8314733e8c1c2a940801850a177e5110) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Japanese Dishes/PNGs/japanese_food_14_shadow.png using Guid(8314733e8c1c2a940801850a177e5110) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b855cce4e6a008573e873f4f600fb38') in 0.027266 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000087 seconds.
+  path: Assets/Japanese Dishes/PNGs/japanese_food_18_shadow.png
+  artifactKey: Guid(9f080f2a424577f4e963bbc165779fef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Japanese Dishes/PNGs/japanese_food_18_shadow.png using Guid(9f080f2a424577f4e963bbc165779fef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd27cf4b7973a29ccb817773cd33503cb') in 0.032312 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000616 seconds.
+  path: Assets/Japanese Dishes/PNGs/japanese_food_15_shadow.png
+  artifactKey: Guid(9338c187b8776944ab1ed59cc7aebd82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Japanese Dishes/PNGs/japanese_food_15_shadow.png using Guid(9338c187b8776944ab1ed59cc7aebd82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3669262860cf2eae831dae4d9fc3312e') in 0.024037 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000137 seconds.
+  path: Assets/Japanese Dishes/PNGs/japanese_food_11_shadow.png
+  artifactKey: Guid(c61ffeed20f7c04448185ad26d8b1c6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Japanese Dishes/PNGs/japanese_food_11_shadow.png using Guid(c61ffeed20f7c04448185ad26d8b1c6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4cb6c0a09444f11d94006db2b857dbc7') in 0.078316 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000131 seconds.
+  path: Assets/Japanese Dishes/PNGs/japanese_food_12_shadow.png
+  artifactKey: Guid(434b40c78a318c64b9f356bb0aeee8d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Japanese Dishes/PNGs/japanese_food_12_shadow.png using Guid(434b40c78a318c64b9f356bb0aeee8d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5f2280f42c67f7a4725092ba0eb30cb') in 0.019909 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000085 seconds.
+  path: Assets/Japanese Dishes/PNGs/japanese_food_16_shadow.png
+  artifactKey: Guid(af910f7262188fa4f8ec1283771902d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Japanese Dishes/PNGs/japanese_food_16_shadow.png using Guid(af910f7262188fa4f8ec1283771902d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c4b7522020c54f7a1ec87bb6a790297') in 0.040197 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000138 seconds.
+  path: Assets/Japanese Dishes/PNGs/japanese_food_05_shadow.png
+  artifactKey: Guid(dc216dc0a1c16e94788ed73e8fc24828) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Japanese Dishes/PNGs/japanese_food_05_shadow.png using Guid(dc216dc0a1c16e94788ed73e8fc24828) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83ffb5d90172827e18d9e737896ff0ce') in 0.037830 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000088 seconds.
+  path: Assets/Japanese Dishes/PNGs/japanese_food_09.png
+  artifactKey: Guid(9fb6c8ba93b115542bc7c03577c8cf0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Japanese Dishes/PNGs/japanese_food_09.png using Guid(9fb6c8ba93b115542bc7c03577c8cf0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a788b1f95563f4eb4fec5c7de590abb') in 0.023138 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001493 seconds.
+  path: Assets/Japanese Dishes/PNGs/japanese_food_16.png
+  artifactKey: Guid(9f978d9366d0ac045b71675971b85045) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Japanese Dishes/PNGs/japanese_food_16.png using Guid(9f978d9366d0ac045b71675971b85045) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73658fb3b461ae2581463d06c5d0333f') in 0.040355 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.594674 seconds.
+  path: Assets/Japanese Dishes/PNGs/japanese_food_21_shadow.png
+  artifactKey: Guid(1c5e2ef9f463f834fa1ba08faf955fa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Japanese Dishes/PNGs/japanese_food_21_shadow.png using Guid(1c5e2ef9f463f834fa1ba08faf955fa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd943fb1b2848eed412ac319e32d04a03') in 0.029791 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000086 seconds.
+  path: Assets/Japanese Dishes/PNGs/japanese_food_22.png
+  artifactKey: Guid(d1cb4e81a62cd6f4eb57615797edefa6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Japanese Dishes/PNGs/japanese_food_22.png using Guid(d1cb4e81a62cd6f4eb57615797edefa6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ecbe854e46659efb5d96bbf155132b0') in 0.029993 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000105 seconds.
+  path: Assets/Japanese Dishes/PNGs/japanese_food_22_shadow.png
+  artifactKey: Guid(2dedc7eb7d22ac1438cc8463cd1e2c16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Japanese Dishes/PNGs/japanese_food_22_shadow.png using Guid(2dedc7eb7d22ac1438cc8463cd1e2c16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07dd6fa26e382878f4869f4608536370') in 0.051286 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000161 seconds.
+  path: Assets/Japanese Dishes/PNGs/japanese_food_23_shadow.png
+  artifactKey: Guid(78e02cb4c0f50d446a39dfab94b02aed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Japanese Dishes/PNGs/japanese_food_23_shadow.png using Guid(78e02cb4c0f50d446a39dfab94b02aed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de0459aecd69e8dae8b1e0e1ec9b1db0') in 0.058338 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000108 seconds.
+  path: Assets/Japanese Dishes/PNGs/table.png
+  artifactKey: Guid(288b45f4d7c0645409d9959faf52d53b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Japanese Dishes/PNGs/table.png using Guid(288b45f4d7c0645409d9959faf52d53b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4000bb145abc3c1d5bad52d5875aad5d') in 0.029258 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000095 seconds.
+  path: Assets/Japanese Dishes/PNGs/japanese_food_23.png
+  artifactKey: Guid(de8ca22626355e94a8b6f1e7d6d92b48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Japanese Dishes/PNGs/japanese_food_23.png using Guid(de8ca22626355e94a8b6f1e7d6d92b48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c4ce9912264483db501c3491ca56aa9') in 0.029794 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.451929 seconds.
+  path: Assets/Japanese Dishes/PNGs/japanese_food_01.png
+  artifactKey: Guid(54e38ee4a0b599942ab1949948fee7c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Japanese Dishes/PNGs/japanese_food_01.png using Guid(54e38ee4a0b599942ab1949948fee7c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '538f147982dc0fb6b14f434c7dd14395') in 0.022184 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000075 seconds.
+  path: Assets/Japanese Dishes/PNGs/japanese_food_01_shadow.png
+  artifactKey: Guid(16cd7ac1e7206cb4a84b1fe46fb4713d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Japanese Dishes/PNGs/japanese_food_01_shadow.png using Guid(16cd7ac1e7206cb4a84b1fe46fb4713d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db96aea483185c6418f96f3d28e72b2a') in 0.031526 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/Japanese Dishes/PNGs/japanese_food_04.png
+  artifactKey: Guid(59fc7008802c0484a8ddf06704a2e07b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Japanese Dishes/PNGs/japanese_food_04.png using Guid(59fc7008802c0484a8ddf06704a2e07b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81acfb54b0fbd380ed928f2ad53151fe') in 0.044268 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000120 seconds.
+  path: Assets/Japanese Dishes/PNGs/japanese_food_03_shadow.png
+  artifactKey: Guid(f2ed199590d58284da615025792bed8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Japanese Dishes/PNGs/japanese_food_03_shadow.png using Guid(f2ed199590d58284da615025792bed8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6bd4d63bc0c30f145d03355fd73f3208') in 0.038210 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000095 seconds.
+  path: Assets/Japanese Dishes/PNGs/japanese_food_03.png
+  artifactKey: Guid(c82d61de01af99b4ab299ce19678bbff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Japanese Dishes/PNGs/japanese_food_03.png using Guid(c82d61de01af99b4ab299ce19678bbff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '474ff07cd27b6778be6f80730570a635') in 0.051926 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000079 seconds.
+  path: Assets/Japanese Dishes/PNGs/japanese_food_02_shadow.png
+  artifactKey: Guid(34a1eed932c98824484e79f43cb23896) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Japanese Dishes/PNGs/japanese_food_02_shadow.png using Guid(34a1eed932c98824484e79f43cb23896) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f64cc54a96895844aa8703831c00f03') in 0.064687 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000119 seconds.
+  path: Assets/Japanese Dishes/PNGs/japanese_food_04_shadow.png
+  artifactKey: Guid(72ad32f94f5e54646bd557221e818c2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Japanese Dishes/PNGs/japanese_food_04_shadow.png using Guid(72ad32f94f5e54646bd557221e818c2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3af15ac0d744c5f47820f7c555f7079f') in 0.059940 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000174 seconds.
+  path: Assets/Japanese Dishes/PNGs/japanese_food_02.png
+  artifactKey: Guid(d79c1007a13b22e44a12aea3b530d400) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Japanese Dishes/PNGs/japanese_food_02.png using Guid(d79c1007a13b22e44a12aea3b530d400) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d2675b2e35ff6e5d934f0375f4a3972') in 0.040744 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 49.741176 seconds.
+  path: Assets/Japanese Dishes/PNGs/japanese_food_02.png
+  artifactKey: Guid(d79c1007a13b22e44a12aea3b530d400) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Japanese Dishes/PNGs/japanese_food_02.png using Guid(d79c1007a13b22e44a12aea3b530d400) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0fb9da0ab0673a36d0188f75dcc389e4') in 0.032748 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 36.007961 seconds.
+  path: Assets/Japanese Dishes/PNGs/japanese_food_09_shadow.png
+  artifactKey: Guid(12722c974c6ead0498c3fdf04171718f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Japanese Dishes/PNGs/japanese_food_09_shadow.png using Guid(12722c974c6ead0498c3fdf04171718f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6857f5fc9f52cffa35f9c56ce328c00d') in 0.050611 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.002214 seconds.
+  path: Assets/Japanese Dishes/PNGs/japanese_food_19_shadow.png
+  artifactKey: Guid(8cff6b6233457f84bbc6c6b2723316e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Japanese Dishes/PNGs/japanese_food_19_shadow.png using Guid(8cff6b6233457f84bbc6c6b2723316e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e182b00587777cdabcb542e943bfc062') in 0.068631 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000093 seconds.
+  path: Assets/Japanese Dishes/PNGs/japanese_food_13_shadow.png
+  artifactKey: Guid(645d1b3cdc1862540b74224b59718494) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Japanese Dishes/PNGs/japanese_food_13_shadow.png using Guid(645d1b3cdc1862540b74224b59718494) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09dbef5c64a5468988b47bf4e7f67ec0') in 0.069085 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001172 seconds.
+  path: Assets/Japanese Dishes/PNGs/japanese_food_14.png
+  artifactKey: Guid(6b6aa07ff38da884db23a93cdc5929e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Japanese Dishes/PNGs/japanese_food_14.png using Guid(6b6aa07ff38da884db23a93cdc5929e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '789b3d11510c380bfd8e3ede26622522') in 0.075698 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.003458 seconds.
+  path: Assets/Japanese Dishes/PNGs/japanese_food_15.png
+  artifactKey: Guid(75253af28112fa049a2c288d6f952ad6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Japanese Dishes/PNGs/japanese_food_15.png using Guid(75253af28112fa049a2c288d6f952ad6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbd4c8febdfd8327a7d5f5e0a8cd87fd') in 0.052406 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000312 seconds.
+  path: Assets/Japanese Dishes/PNGs/japanese_food_10_shadow.png
+  artifactKey: Guid(71a571f6e451fb0469142c56a535b347) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Japanese Dishes/PNGs/japanese_food_10_shadow.png using Guid(71a571f6e451fb0469142c56a535b347) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '197e0f1f626ab014e6d2aa2aa5860474') in 0.072576 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000123 seconds.
+  path: Assets/Japanese Dishes/PNGs/japanese_food_12.png
+  artifactKey: Guid(db97e1e9f2ad1ca47ae3a27747701e54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Japanese Dishes/PNGs/japanese_food_12.png using Guid(db97e1e9f2ad1ca47ae3a27747701e54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa071f88e883901c997828b59fb9eb3c') in 0.061262 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000239 seconds.
+  path: Assets/Japanese Dishes/PNGs/japanese_food_19.png
+  artifactKey: Guid(d8ea87c1856395c47a2a5c272e883080) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Japanese Dishes/PNGs/japanese_food_19.png using Guid(d8ea87c1856395c47a2a5c272e883080) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14cf5209f0fd4f79d918d9202103902d') in 0.053664 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000094 seconds.
+  path: Assets/Japanese Dishes/PNGs/japanese_food_20_shadow.png
+  artifactKey: Guid(f9d0b8987c2f8b94dafb50e58650763e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Japanese Dishes/PNGs/japanese_food_20_shadow.png using Guid(f9d0b8987c2f8b94dafb50e58650763e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23b88b8a58b5bb426b8c88f735287299') in 0.099797 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000122 seconds.
+  path: Assets/Japanese Dishes/PNGs/japanese_food_23_shadow.png
+  artifactKey: Guid(78e02cb4c0f50d446a39dfab94b02aed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Japanese Dishes/PNGs/japanese_food_23_shadow.png using Guid(78e02cb4c0f50d446a39dfab94b02aed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7486a0f797e8753bc54dcdeae80451a') in 0.062111 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000253 seconds.
+  path: Assets/Japanese Dishes/PNGs/japanese_food_01_shadow.png
+  artifactKey: Guid(16cd7ac1e7206cb4a84b1fe46fb4713d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Japanese Dishes/PNGs/japanese_food_01_shadow.png using Guid(16cd7ac1e7206cb4a84b1fe46fb4713d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97ca163cc92048905e1fc851392f3f5e') in 0.079597 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000099 seconds.
+  path: Assets/Japanese Dishes/PNGs/japanese_food_07_shadow.png
+  artifactKey: Guid(a77c8f0cb5a9f214c85c148e3a327d2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Japanese Dishes/PNGs/japanese_food_07_shadow.png using Guid(a77c8f0cb5a9f214c85c148e3a327d2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5436a7690bcae304f0b21f1c77d43cf9') in 0.053323 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000116 seconds.
+  path: Assets/Japanese Dishes/PNGs/japanese_food_22.png
+  artifactKey: Guid(d1cb4e81a62cd6f4eb57615797edefa6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Japanese Dishes/PNGs/japanese_food_22.png using Guid(d1cb4e81a62cd6f4eb57615797edefa6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8261faa5278e7d21a6e73478148af798') in 0.055714 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000904 seconds.
+  path: Assets/Japanese Dishes/PNGs/japanese_food_03_shadow.png
+  artifactKey: Guid(f2ed199590d58284da615025792bed8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Japanese Dishes/PNGs/japanese_food_03_shadow.png using Guid(f2ed199590d58284da615025792bed8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae3dcf82c0ea202a13884e03f06341db') in 0.042679 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000180 seconds.
+  path: Assets/Japanese Dishes/PNGs/japanese_food_06_shadow.png
+  artifactKey: Guid(cdeb17ee04b736649b9eb81c37e0abdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Japanese Dishes/PNGs/japanese_food_06_shadow.png using Guid(cdeb17ee04b736649b9eb81c37e0abdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '003cda9c7eb812f68284a74965993775') in 0.082134 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000128 seconds.
+  path: Assets/Japanese Dishes/PNGs/japanese_food_03.png
+  artifactKey: Guid(c82d61de01af99b4ab299ce19678bbff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Japanese Dishes/PNGs/japanese_food_03.png using Guid(c82d61de01af99b4ab299ce19678bbff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61c064b5752504aa51d1e38d1d650ab9') in 0.064188 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000118 seconds.
+  path: Assets/Japanese Dishes/PNGs/japanese_food_18.png
+  artifactKey: Guid(d874f4540a4f31f40b1560c5016ff8c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Japanese Dishes/PNGs/japanese_food_18.png using Guid(d874f4540a4f31f40b1560c5016ff8c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1878f10b15fd0513f0dacaf8a0ec34ae') in 0.116110 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000125 seconds.
+  path: Assets/Japanese Dishes/PNGs/japanese_food_10.png
+  artifactKey: Guid(40d1856dae65f184b8b88b0b65ad61cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Japanese Dishes/PNGs/japanese_food_10.png using Guid(40d1856dae65f184b8b88b0b65ad61cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7edb506a945cb721406e0e7faae733b') in 0.063947 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000408 seconds.
+  path: Assets/Japanese Dishes/PNGs/japanese_food_06.png
+  artifactKey: Guid(262a0cf8101335c429473fc17f9fb356) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Japanese Dishes/PNGs/japanese_food_06.png using Guid(262a0cf8101335c429473fc17f9fb356) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c516a086db99d83009db042629cabb3') in 0.073624 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000351 seconds.
+  path: Assets/Japanese Dishes/PNGs/japanese_food_04_shadow.png
+  artifactKey: Guid(72ad32f94f5e54646bd557221e818c2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Japanese Dishes/PNGs/japanese_food_04_shadow.png using Guid(72ad32f94f5e54646bd557221e818c2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bac4978734e393aa57af2898ed5ad8c') in 0.052889 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000382 seconds.
+  path: Assets/Japanese Dishes/PNGs/japanese_food_21.png
+  artifactKey: Guid(a3058a2432ff46c49b90468fd475e9de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Japanese Dishes/PNGs/japanese_food_21.png using Guid(a3058a2432ff46c49b90468fd475e9de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8869ec26aa323f7978d00b61429cda5a') in 0.071593 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000475 seconds.
+  path: Assets/Japanese Dishes/PNGs/japanese_food_14_shadow.png
+  artifactKey: Guid(8314733e8c1c2a940801850a177e5110) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Japanese Dishes/PNGs/japanese_food_14_shadow.png using Guid(8314733e8c1c2a940801850a177e5110) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec3256e34cd92addd0be9456f2e509f4') in 0.046029 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000111 seconds.
+  path: Assets/Japanese Dishes/PNGs/japanese_food_15_shadow.png
+  artifactKey: Guid(9338c187b8776944ab1ed59cc7aebd82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Japanese Dishes/PNGs/japanese_food_15_shadow.png using Guid(9338c187b8776944ab1ed59cc7aebd82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0f45f498d7850ea40b549d5e5046c40') in 0.078026 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000217 seconds.
+  path: Assets/Japanese Dishes/PNGs/japanese_food_11_shadow.png
+  artifactKey: Guid(c61ffeed20f7c04448185ad26d8b1c6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Japanese Dishes/PNGs/japanese_food_11_shadow.png using Guid(c61ffeed20f7c04448185ad26d8b1c6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5a12fde14219834db80a092dae918a2') in 0.063297 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.003269 seconds.
+  path: Assets/Japanese Dishes/PNGs/japanese_food_01.png
+  artifactKey: Guid(54e38ee4a0b599942ab1949948fee7c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Japanese Dishes/PNGs/japanese_food_01.png using Guid(54e38ee4a0b599942ab1949948fee7c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fa95e1e44cb6a1e63ed3681194bb2ff') in 0.071558 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000095 seconds.
+  path: Assets/Japanese Dishes/PNGs/japanese_food_17.png
+  artifactKey: Guid(13abb4172986f1a41bbd9a3f57b32ec0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Japanese Dishes/PNGs/japanese_food_17.png using Guid(13abb4172986f1a41bbd9a3f57b32ec0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15513bd1ecfc6c31bcd79eb3b763d72e') in 0.078029 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000090 seconds.
+  path: Assets/Japanese Dishes/PNGs/japanese_food_16_shadow.png
+  artifactKey: Guid(af910f7262188fa4f8ec1283771902d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Japanese Dishes/PNGs/japanese_food_16_shadow.png using Guid(af910f7262188fa4f8ec1283771902d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e722f38c0f9f8520bbf06c07ee0959b') in 0.102509 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000110 seconds.
+  path: Assets/Japanese Dishes/PNGs/japanese_food_09.png
+  artifactKey: Guid(9fb6c8ba93b115542bc7c03577c8cf0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Japanese Dishes/PNGs/japanese_food_09.png using Guid(9fb6c8ba93b115542bc7c03577c8cf0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a2a82803674c97d096a6c8bf4c23bc0') in 0.062693 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000108 seconds.
+  path: Assets/Japanese Dishes/PNGs/japanese_food_05_shadow.png
+  artifactKey: Guid(dc216dc0a1c16e94788ed73e8fc24828) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Japanese Dishes/PNGs/japanese_food_05_shadow.png using Guid(dc216dc0a1c16e94788ed73e8fc24828) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b84b25da33b5f51b470e7eff51df231') in 0.064444 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000284 seconds.
+  path: Assets/Japanese Dishes/PNGs/japanese_food_05.png
+  artifactKey: Guid(d8e2e84f7d9f9504c9aae39af5ccd1fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Japanese Dishes/PNGs/japanese_food_05.png using Guid(d8e2e84f7d9f9504c9aae39af5ccd1fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1645c91465fa6419308d2b110c3d69ae') in 0.066017 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000103 seconds.
+  path: Assets/Japanese Dishes/PNGs/japanese_food_07.png
+  artifactKey: Guid(57d171fe97871c546867903405e82b02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Japanese Dishes/PNGs/japanese_food_07.png using Guid(57d171fe97871c546867903405e82b02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c88823eccebdc22d0b6515a3b39c9c27') in 0.083582 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000123 seconds.
+  path: Assets/Japanese Dishes/PNGs/japanese_food_04.png
+  artifactKey: Guid(59fc7008802c0484a8ddf06704a2e07b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Japanese Dishes/PNGs/japanese_food_04.png using Guid(59fc7008802c0484a8ddf06704a2e07b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ab6c3d7848263088624ac716f7b1e9f') in 0.044897 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000079 seconds.
+  path: Assets/Japanese Dishes/PNGs/japanese_food_08.png
+  artifactKey: Guid(d1029422f3b946b4b8c40158a32e032d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Japanese Dishes/PNGs/japanese_food_08.png using Guid(d1029422f3b946b4b8c40158a32e032d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c6bf83eb750f58c9804232d4d9a61ad') in 0.052482 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000133 seconds.
+  path: Assets/Japanese Dishes/PNGs/japanese_food_13.png
+  artifactKey: Guid(aef72625293efa84fad0a169d11599fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Japanese Dishes/PNGs/japanese_food_13.png using Guid(aef72625293efa84fad0a169d11599fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec94cddf93d7c30849d60657268cf8a3') in 0.095107 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.007071 seconds.
+  path: Assets/Japanese Dishes/PNGs/japanese_food_08_shadow.png
+  artifactKey: Guid(aa0566904ca3fbd45ad35a04ac9c4c87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Japanese Dishes/PNGs/japanese_food_08_shadow.png using Guid(aa0566904ca3fbd45ad35a04ac9c4c87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0909b0f9329244eca7366f72085f388') in 0.105048 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000512 seconds.
+  path: Assets/Japanese Dishes/PNGs/japanese_food_22_shadow.png
+  artifactKey: Guid(2dedc7eb7d22ac1438cc8463cd1e2c16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Japanese Dishes/PNGs/japanese_food_22_shadow.png using Guid(2dedc7eb7d22ac1438cc8463cd1e2c16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12a91f91ec5e870d1459adfd5d544db5') in 0.121327 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000110 seconds.
+  path: Assets/Japanese Dishes/PNGs/japanese_food_02_shadow.png
+  artifactKey: Guid(34a1eed932c98824484e79f43cb23896) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Japanese Dishes/PNGs/japanese_food_02_shadow.png using Guid(34a1eed932c98824484e79f43cb23896) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9be6d1e9a0367b92c8da197243478695') in 0.123342 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000131 seconds.
+  path: Assets/Japanese Dishes/PNGs/japanese_food_20.png
+  artifactKey: Guid(a0419f2bb78d68745974720516f40e40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Japanese Dishes/PNGs/japanese_food_20.png using Guid(a0419f2bb78d68745974720516f40e40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51249ae8046b47953d4b3077cf55f186') in 0.087665 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000107 seconds.
+  path: Assets/Japanese Dishes/PNGs/japanese_food_11.png
+  artifactKey: Guid(052448aac9d963c4cbda749d2f004959) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Japanese Dishes/PNGs/japanese_food_11.png using Guid(052448aac9d963c4cbda749d2f004959) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76ef7f8aa3c8982525dd0604044fe30b') in 0.081372 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000812 seconds.
+  path: Assets/Japanese Dishes/PNGs/japanese_food_17_shadow.png
+  artifactKey: Guid(ffcf215ade065c14db7a2319b4c5b9c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Japanese Dishes/PNGs/japanese_food_17_shadow.png using Guid(ffcf215ade065c14db7a2319b4c5b9c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23735b0f75ee8d69b63ed1471a8fa4e8') in 0.056126 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000111 seconds.
+  path: Assets/Japanese Dishes/PNGs/table.png
+  artifactKey: Guid(288b45f4d7c0645409d9959faf52d53b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Japanese Dishes/PNGs/table.png using Guid(288b45f4d7c0645409d9959faf52d53b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f82ce43b2d6f6144ece0b1ed184f0e83') in 0.083007 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001106 seconds.
+  path: Assets/Japanese Dishes/PNGs/japanese_food_18_shadow.png
+  artifactKey: Guid(9f080f2a424577f4e963bbc165779fef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Japanese Dishes/PNGs/japanese_food_18_shadow.png using Guid(9f080f2a424577f4e963bbc165779fef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ee6176ab15cbbfc3307a9126078590d') in 0.075676 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000088 seconds.
+  path: Assets/Japanese Dishes/PNGs/japanese_food_21_shadow.png
+  artifactKey: Guid(1c5e2ef9f463f834fa1ba08faf955fa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Japanese Dishes/PNGs/japanese_food_21_shadow.png using Guid(1c5e2ef9f463f834fa1ba08faf955fa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4f76b0d33ca5c6fc77a8a05646a5b67') in 0.071263 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000092 seconds.
+  path: Assets/Japanese Dishes/PNGs/japanese_food_02.png
+  artifactKey: Guid(d79c1007a13b22e44a12aea3b530d400) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Japanese Dishes/PNGs/japanese_food_02.png using Guid(d79c1007a13b22e44a12aea3b530d400) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '204b28beb397d450ba2057cf2b3f051c') in 0.037022 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001696 seconds.
+  path: Assets/Japanese Dishes/PNGs/japanese_food_12_shadow.png
+  artifactKey: Guid(434b40c78a318c64b9f356bb0aeee8d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Japanese Dishes/PNGs/japanese_food_12_shadow.png using Guid(434b40c78a318c64b9f356bb0aeee8d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55ac2526ec68ad8df7ff09bcd0787cfe') in 0.089461 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000496 seconds.
+  path: Assets/Japanese Dishes/PNGs/japanese_food_16.png
+  artifactKey: Guid(9f978d9366d0ac045b71675971b85045) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Japanese Dishes/PNGs/japanese_food_16.png using Guid(9f978d9366d0ac045b71675971b85045) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1214cdaceb829740e48633e125fd826f') in 0.193800 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000101 seconds.
+  path: Assets/Japanese Dishes/PNGs/japanese_food_23.png
+  artifactKey: Guid(de8ca22626355e94a8b6f1e7d6d92b48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Japanese Dishes/PNGs/japanese_food_23.png using Guid(de8ca22626355e94a8b6f1e7d6d92b48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fbc9967e2337fd24afb32e6f3bf8996') in 0.072666 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008015 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/tan.hoang/Desktop/Midnigt Cravings/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image /Users/tan.hoang/Desktop/Midnigt Cravings/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.82 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Can't find custom attr constructor image: /Users/tan.hoang/Desktop/Midnigt Cravings/Library/PackageCache/com.unity.ads@3.4.5/Editor/UnityEditor.Advertisements.dll mtoken: 0x0a00000f due to: Method not found: void UnityEngine.UnityAPICompatibilityVersionAttribute..ctor(string,string[])
+Mono: successfully reloaded assembly
+- Completed reload, in  3.064 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3065ms)
+		BeginReloadAssembly (275ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (14ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (86ms)
+		EndReloadAssembly (2343ms)
+			LoadAssemblies (256ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (862ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (164ms)
+			SetupLoadedEditorAssemblies (928ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (21ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (144ms)
+				ProcessInitializeOnLoadAttributes (672ms)
+				ProcessInitializeOnLoadMethodAttributes (86ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (15ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 6.53 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4381 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 51 unused Assets / (23.2 KB). Loaded Objects now: 4887.
+Memory consumption went from 294.2 MB to 294.2 MB.
+Total: 6.315490 ms (FindLiveObjects: 0.535763 ms CreateObjectMapping: 0.605266 ms MarkObjects: 5.138309 ms  DeleteObjects: 0.034962 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005782 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/tan.hoang/Desktop/Midnigt Cravings/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image /Users/tan.hoang/Desktop/Midnigt Cravings/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 2.19 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Can't find custom attr constructor image: /Users/tan.hoang/Desktop/Midnigt Cravings/Library/PackageCache/com.unity.ads@3.4.5/Editor/UnityEditor.Advertisements.dll mtoken: 0x0a00000f due to: Method not found: void UnityEngine.UnityAPICompatibilityVersionAttribute..ctor(string,string[])
+Mono: successfully reloaded assembly
+- Completed reload, in  3.408 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3409ms)
+		BeginReloadAssembly (349ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (14ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (1ms)
+			CreateAndSetChildDomain (154ms)
+		EndReloadAssembly (2766ms)
+			LoadAssemblies (246ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (909ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (147ms)
+			SetupLoadedEditorAssemblies (1315ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (27ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (205ms)
+				ProcessInitializeOnLoadAttributes (935ms)
+				ProcessInitializeOnLoadMethodAttributes (141ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (18ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 6.66 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4381 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 51 unused Assets / (24.9 KB). Loaded Objects now: 4890.
+Memory consumption went from 294.4 MB to 294.4 MB.
+Total: 54.884336 ms (FindLiveObjects: 0.567494 ms CreateObjectMapping: 0.409153 ms MarkObjects: 53.805762 ms  DeleteObjects: 0.100644 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005919 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/tan.hoang/Desktop/Midnigt Cravings/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image /Users/tan.hoang/Desktop/Midnigt Cravings/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.47 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Can't find custom attr constructor image: /Users/tan.hoang/Desktop/Midnigt Cravings/Library/PackageCache/com.unity.ads@3.4.5/Editor/UnityEditor.Advertisements.dll mtoken: 0x0a00000f due to: Method not found: void UnityEngine.UnityAPICompatibilityVersionAttribute..ctor(string,string[])
+Mono: successfully reloaded assembly
+- Completed reload, in  1.598 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1599ms)
+		BeginReloadAssembly (194ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (10ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (75ms)
+		EndReloadAssembly (1230ms)
+			LoadAssemblies (137ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (396ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (96ms)
+			SetupLoadedEditorAssemblies (513ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (17ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (99ms)
+				ProcessInitializeOnLoadAttributes (329ms)
+				ProcessInitializeOnLoadMethodAttributes (63ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 5.21 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4377 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 55 unused Assets / (23.0 KB). Loaded Objects now: 4889.
+Memory consumption went from 294.6 MB to 294.5 MB.
+Total: 4.141813 ms (FindLiveObjects: 0.369619 ms CreateObjectMapping: 0.232719 ms MarkObjects: 3.500504 ms  DeleteObjects: 0.037900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 344.088661 seconds.
+  path: Assets/Scenes/End Scene.unity
+  artifactKey: Guid(3cb05b07bc1f94f0480abafd8a305b9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/End Scene.unity using Guid(3cb05b07bc1f94f0480abafd8a305b9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8795e16ed65e880717ed0d24b5e01b20') in 0.022640 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.666224 seconds.
+  path: Assets/Scenes/Level 0.unity
+  artifactKey: Guid(b9a8256d900614b1dbe19a8d023211e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Level 0.unity using Guid(b9a8256d900614b1dbe19a8d023211e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e165bbfc382c26029b4b5ffe16e574a') in 0.005371 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.017179 seconds.
+  path: Assets/Scenes/Level 1.5.unity
+  artifactKey: Guid(b57fc70e5f12745fbbcdee02dd73eb5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Level 1.5.unity using Guid(b57fc70e5f12745fbbcdee02dd73eb5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '799e56616810b088ae5cf1b4c7a91b7b') in 0.007728 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 41.788174 seconds.
+  path: Assets/Prefabs/Player 1.prefab
+  artifactKey: Guid(1d1df843cf98a44a898c3992e6a3d458) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Player 1.prefab using Guid(1d1df843cf98a44a898c3992e6a3d458) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '729cb1e1dd505f3ffa6918e19d6a9664') in 0.403539 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.899273 seconds.
+  path: Assets/Prefabs/Player.prefab
+  artifactKey: Guid(1d1df843cf98a44a898c3992e6a3d458) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Player.prefab using Guid(1d1df843cf98a44a898c3992e6a3d458) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c2d5c89b29ae108155182bb86f00755') in 0.088966 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 353.992414 seconds.
+  path: Assets/Prefabs/Melon.prefab
+  artifactKey: Guid(b0cc050c72c2e40b5b31e66a4ba42369) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Melon.prefab using Guid(b0cc050c72c2e40b5b31e66a4ba42369) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e6920b600a769a0556931af789a9cfa') in 0.019026 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 126.837326 seconds.
+  path: Assets/Prefabs/Takoyaki Variant.prefab
+  artifactKey: Guid(6bb9b9963d5a642f385a88ad41287f99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Takoyaki Variant.prefab using Guid(6bb9b9963d5a642f385a88ad41287f99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5839ad9a9b4e8e92066447ffab99489c') in 0.036709 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.917552 seconds.
+  path: Assets/Prefabs/Omulet Variant.prefab
+  artifactKey: Guid(0f8b9f5c1cb584d59a010460a53e7623) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Omulet Variant.prefab using Guid(0f8b9f5c1cb584d59a010460a53e7623) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3dfce5e1d284b2e2a1efd9106875874') in 0.024426 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.926270 seconds.
+  path: Assets/Prefabs/Ramen Variant.prefab
+  artifactKey: Guid(edbe6034e66e24117bf152b5ea36ec86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Ramen Variant.prefab using Guid(edbe6034e66e24117bf152b5ea36ec86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '909354b436613cbf3da489276c49d287') in 0.024623 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.221324 seconds.
+  path: Assets/Prefabs/Ramen Variant 1.prefab
+  artifactKey: Guid(cdd5b6d4cfa794811a92fdb2fa039efd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Ramen Variant 1.prefab using Guid(cdd5b6d4cfa794811a92fdb2fa039efd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f40e655582691283a0aa86a147985b9') in 0.024284 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005713 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/tan.hoang/Desktop/Midnigt Cravings/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image /Users/tan.hoang/Desktop/Midnigt Cravings/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.82 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Can't find custom attr constructor image: /Users/tan.hoang/Desktop/Midnigt Cravings/Library/PackageCache/com.unity.ads@3.4.5/Editor/UnityEditor.Advertisements.dll mtoken: 0x0a00000f due to: Method not found: void UnityEngine.UnityAPICompatibilityVersionAttribute..ctor(string,string[])
+Mono: successfully reloaded assembly
+- Completed reload, in  3.151 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3153ms)
+		BeginReloadAssembly (284ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (15ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (104ms)
+		EndReloadAssembly (2598ms)
+			LoadAssemblies (266ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (783ms)
+			ReleaseScriptCaches (4ms)
+			RebuildScriptCaches (263ms)
+			SetupLoadedEditorAssemblies (1017ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (33ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (178ms)
+				ProcessInitializeOnLoadAttributes (696ms)
+				ProcessInitializeOnLoadMethodAttributes (104ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (20ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 6.51 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4377 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 51 unused Assets / (23.0 KB). Loaded Objects now: 4897.
+Memory consumption went from 299.2 MB to 299.1 MB.
+Total: 5.494099 ms (FindLiveObjects: 0.547673 ms CreateObjectMapping: 0.465833 ms MarkObjects: 4.444259 ms  DeleteObjects: 0.035195 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006212 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/tan.hoang/Desktop/Midnigt Cravings/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image /Users/tan.hoang/Desktop/Midnigt Cravings/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.56 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Can't find custom attr constructor image: /Users/tan.hoang/Desktop/Midnigt Cravings/Library/PackageCache/com.unity.ads@3.4.5/Editor/UnityEditor.Advertisements.dll mtoken: 0x0a00000f due to: Method not found: void UnityEngine.UnityAPICompatibilityVersionAttribute..ctor(string,string[])
+Mono: successfully reloaded assembly
+- Completed reload, in  2.195 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2196ms)
+		BeginReloadAssembly (223ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (13ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (62ms)
+		EndReloadAssembly (1757ms)
+			LoadAssemblies (203ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (552ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (150ms)
+			SetupLoadedEditorAssemblies (764ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (16ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (118ms)
+				ProcessInitializeOnLoadAttributes (528ms)
+				ProcessInitializeOnLoadMethodAttributes (98ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (16ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 8.38 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4377 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 51 unused Assets / (23.8 KB). Loaded Objects now: 4900.
+Memory consumption went from 299.4 MB to 299.4 MB.
+Total: 10.006494 ms (FindLiveObjects: 1.759841 ms CreateObjectMapping: 0.411833 ms MarkObjects: 7.774401 ms  DeleteObjects: 0.058915 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
